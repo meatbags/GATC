@@ -1,0 +1,17 @@
+div, * {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $fontStack;
+  font-size: $fontSize;
+  background: $background;
+  color: $colour;
+  line-height: $lineHeight;
+  letter-spacing: $letterSpacing;
+}

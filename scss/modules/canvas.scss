@@ -1,0 +1,22 @@
+.canvas-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: $indexCanvas;
+  position: fixed;
+
+  // #canvas-target
+  .canvas-wrapper__inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}
